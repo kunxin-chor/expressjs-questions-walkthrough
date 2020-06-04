@@ -35,6 +35,19 @@ app.post('/feedback', (req,res)=>{
     })
 })
 
+// one route to display the form
+app.get('/find_average', (req,res)=>res.render('average'));
+
+// one route to process the form
+app.post('/find_average', (req,res)=>{
+    let total = parseInt(req.body.num1) + parseInt(req.body.num2) + parseInt(req.body.num3);
+    let average = total / 3;
+    res.render('average_result', {
+        average
+    })
+})
+
+
 /** NO ROUTES AFTERWARDS */
 
 // 4. enable express
