@@ -1,4 +1,4 @@
-# Q4 - Template Inheritance
+# Q4 - Template Inheritance and Blocks
 
 Recreate the steps to add in templates and static files from the second question.
 
