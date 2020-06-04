@@ -56,3 +56,15 @@ let the magic begin
 </script>
 {{/extend}}
 ```
+
+## Question
+
+Use bootstrap inside layout.hbs and create two routes:
+
+### /about
+Display some filler text about a company in `about.hbs` using the `layout.hbs` as parent template.
+
+### /feedback
+Display a form that asks feedback from user (just the form, no need to do proccessing)
+
+Also create a navbar in Bootstrap that allows us to navigate between the two routes. The navbar should not be recreated in each of the individual `.hbs`
