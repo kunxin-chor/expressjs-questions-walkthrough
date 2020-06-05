@@ -1,6 +1,6 @@
 const MongoClient = require( 'mongodb' ).MongoClient;
-const url =  "your mongo url here";
-const dbName = "animal_shelter";
+const url =  "mongodb+srv://root:rotiprata123@cluster0-encm1.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const dbName = "library";
 let _db;
 
 module.exports = {
